@@ -1,0 +1,172 @@
+body{
+    background: url('./image/contact.jpg') no-repeat center fixed;
+    background-size: cover;
+    margin-top: 30px;
+    
+}
+
+.contact-form{
+    width: 50%;
+    background-color: #e6e6e6;
+    box-shadow: 0 0 35px orange;
+    padding: 30px 30px 30px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: sans-serif;
+    position: relative;
+    left: 23%;
+    margin-bottom: -550px;
+    margin-top: 100px;
+    
+}
+
+.contact-form h2{
+    margin-top: 0px;
+}
+
+.btn-message{
+    display: inline-block;
+    background: orange;
+    padding: 14px 0px;
+    cursor: pointer;
+    margin-top: 10px;
+   
+}
+
+#back{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: orange !important;
+    padding-top: 10px ;
+    padding-left: 10px;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+#footer{
+    padding-top: 50px;
+    width: 100%;
+    border-spacing: 10px;
+    height: -200vmax;
+    text-align: center;
+    margin-top: 680px;
+    background-color: black !important;
+    line-height: 30px;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+a{
+    color: orange;
+}
+
+#f, #fb, #fd{
+    color: white;
+}
+
+.navbar {
+    background-color: #ef9320;
+    
+  }
+  .navbar .navbar-brand {
+    color: #000000;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: rgb(255, 233, 194);
+  }
+  .navbar .navbar-text {
+    color: #000000;
+  }
+  .navbar .navbar-nav > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-nav > li > .dropdown-menu {
+    background-color: rgb(255, 178, 34);
+  }
+  .navbar .navbar-nav > li > .dropdown-menu > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-toggle {
+    border-color: black;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: black;
+  }
+  .navbar .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+
+  .input-group button{
+      background-color: black;
+  }
+
+  .dropdown-menu li a{
+      color: black !important;
+  }
+
+  .dropdown-menu li a:hover{
+    color: white;
+  }
+
+  nav{
+    color: orange !important;
+}
+
+a{
+    color: orange;
+}
+
+
+
+
+
+@media only screen and ( max-width:450px){
+    .contact-form{
+        padding: 30px 10px 40px;
+    }
+}
+
+@media only screen and (min-width: 360px){
+
+    .btn-form-control{
+        min-width: 250px !important;
+        
+    }
+    
+}
+
+@media only screen and (min-width: 411px){
+
+    .btn-form-control{
+        min-width: 300px !important;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 360px){
+
+    .btn-form-control{
+       width: 150px !important;
+
+        
+    }
+    
+}
+
+@media only screen and (min-width: 600px){
+
+    .btn-form-control{
+       width: 50px !important;
+        
+    }
+    
+}

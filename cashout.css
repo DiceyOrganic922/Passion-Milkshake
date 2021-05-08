@@ -1,0 +1,123 @@
+body { margin-top:20px; }
+.panel-title {display: inline;font-weight: bold;}
+.checkbox.pull-right { margin: 0; }
+.pl-ziro { padding-left:0px; }
+
+body{
+  background-image: url(./image/paymentpic.jpg) ;
+  width: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  margin-top: 30px;
+  background-size: cover;
+ 
+   
+}
+
+.inlineimage {
+    max-width: 470px;
+    margin-right: 8px;
+    margin-left: 10px
+}
+
+.images {
+    display: inline-block;
+    max-width: 98%;
+    height: auto;
+    width: 22%;
+    margin: 1%;
+    left: 20px;
+    text-align: center
+}
+
+.icon2{
+    font-size: 20px;
+    
+}
+
+#cards{
+    font-size: 40px;
+}
+
+footer #end ul li a{
+    color: white !important;
+}
+
+footer h4{
+    color: orange !important;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+#footer{
+    padding-top: 50px;
+    width: 100%;
+    border-spacing: 10px;
+    height: -200vmax;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black !important;
+
+}
+
+.navbar {
+    background-color: #ef9320;
+    
+  }
+  .navbar .navbar-brand {
+    color: #000000;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: rgb(255, 233, 194);
+  }
+  .navbar .navbar-text {
+    color: #000000;
+  }
+  .navbar .navbar-nav > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-nav > li > .dropdown-menu {
+    background-color: rgb(255, 178, 34);
+  }
+  .navbar .navbar-nav > li > .dropdown-menu > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-toggle {
+    border-color: black;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: black;
+  }
+  .navbar .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+
+  .input-group button{
+      background-color: black;
+  }
+
+  .dropdown-menu li a{
+      color: black !important;
+  }
+
+  .dropdown-menu li a:hover{
+    color: white;
+  }
+
+  nav{
+    color: orange !important;
+}
+
+a{
+    color: orange;
+}
+
+
+
+

@@ -1,0 +1,97 @@
+#body p{
+  padding: 30px 30px 15px;
+  line-height: 30px;
+  margin-top: 30px;
+    
+}
+
+body{
+  margin-top: 30px;
+}
+
+ul.nav .dropdown:hover{
+    background-color: orange;
+    border-radius: 30px;
+}
+
+#footer{
+    padding-top: 50px;
+    width: 100%;
+    border-spacing: 10px;
+    height: -150vmax;
+    text-align: center;
+    margin-top: 100px;
+    background-color: black !important;
+
+}
+
+#footer ul{
+    list-style: none;
+}
+
+a{
+    color: orange;
+}
+
+#f, #fb, #fd{
+    color: white;
+}
+
+#body h3{
+    color: orange;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.navbar {
+    background-color: #ef9320;
+    
+  }
+  .navbar .navbar-brand {
+    color: #000000;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: rgb(255, 233, 194);
+  }
+  .navbar .navbar-text {
+    color: #000000;
+  }
+  .navbar .navbar-nav > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-nav > li > .dropdown-menu {
+    background-color: rgb(255, 178, 34);
+  }
+  .navbar .navbar-nav > li > .dropdown-menu > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-toggle {
+    border-color: black;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: black;
+  }
+  .navbar .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+
+  .input-group button{
+      background-color: black;
+  }
+
+  .dropdown-menu li a{
+      color: black !important;
+  }
+
+  .dropdown-menu li a:hover{
+    color: white;
+  }
+
+  ul.nav .dropdown:hover{
+    background-color: black;
+    border-radius: 30px;
+}

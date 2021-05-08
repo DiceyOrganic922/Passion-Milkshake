@@ -1,0 +1,306 @@
+*{
+    list-style-type: none;
+    box-sizing: border-box;
+    color: white;
+}
+
+a{
+    color: orange;
+}
+
+h1{
+    text-align: center;
+    color: orange !important;
+}
+
+
+
+#topback{
+    padding-top: 15px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./image/milkshakepic.jpg);
+    
+}
+
+body{
+    background-color: black;
+    margin-top: 30px;
+    
+}
+
+
+#welcome{
+    font-style: italic;
+    font-family:   sans-serif;
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 50px;
+
+}
+
+div#icon, #list, #list1, #list2, #list3 {
+    display: inline-block;
+   align-items: center;
+   font-size: 50px;
+   padding: 50px 40px 5px;
+  
+ }
+
+#main{
+    background: url('./image/main2.jpg') no-repeat center fixed;
+    background-size: 100% 100%;
+    padding-top: 80px;
+   
+}
+
+#kd{
+    text-shadow : 5px 15px 9px #999999;
+    text-decoration: blink;
+    font-size: 90px;
+    line-height: 80px;
+    
+}
+
+h3{
+    border-radius: 40px;
+    background-color: black;
+    color: orange !important;
+    text-align: center;
+
+}
+
+.warning ul li{
+    line-height: 40px;
+    text-align: center;
+    
+}
+
+#second{
+
+    line-height: 32px;
+    text-align: center;
+    padding: 0px 50px 0px;
+
+}
+
+.carousel-inner{
+    background-size: cover;
+}
+
+#secondrow{
+    padding-top: 50px;
+  
+}
+
+#lastrow{
+    padding-top: 50px;
+}
+
+#about{
+
+    text-align: center;
+    line-height: 27px;
+}
+
+.carousel-inner.item img {
+   height: fit-content;
+   
+}
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+#history{
+
+    line-height: 30px;
+    text-align: center;
+}
+
+#backpic{
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.icon2{
+    font-size: 20px;
+    
+}
+
+#end{
+    padding-top: 50px;
+    padding-bottom: 400px;
+    background-image: linear-gradient(to top, black 70%,rgb(252, 198, 97));
+}
+
+footer #end ul li a{
+    line-height: 40px;
+    
+}
+
+#footer{
+    padding-top: 50px;
+    width: 100%;
+    border-spacing: 10px;
+   
+    text-align: center;
+}
+
+#topback .icon ul li a:hover{
+    background-color: orange;
+    border-radius: 10px;
+    border: solid;
+    border-color: rgb(95, 62, 2);
+    border-width: 5px;
+}
+
+.brand{
+    float: inline-start;
+    color: black !important;
+    font-size: 30px;
+    padding-right: 15px;
+    
+}
+
+footer{
+    padding-top: 50px;
+}
+
+.navbar{
+    background-color: #ef9320;
+    
+}
+.navbar .navbar-brand {
+    color: #000000;
+ 
+}
+  
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color:  rgb(255, 233, 189);
+}
+.navbar .navbar-text {
+    color: #000000;
+}
+  
+.navbar .navbar-nav > li > a {
+    color: black;
+}
+
+  .navbar .navbar-nav > li > .dropdown-menu {
+    background-color: rgb(255, 178, 34);
+  }
+  .navbar .navbar-nav > li > .dropdown-menu > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-toggle {
+    border-color: black;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: black;
+  }
+  .navbar .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+
+  .input-group button{
+      background-color: black;
+  }
+
+  .dropdown-menu li a{
+      color: black !important;
+  }
+
+  .dropdown-menu li a:hover{
+    color: white;
+  }
+
+  ul.nav .dropdown:hover{
+    background-color: black;
+    border-radius: 30px;
+}
+
+
+  @media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+      color: #000000;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #ffbbbc;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #ffbbbc;
+      background-color: #ffffff;
+    }
+  }
+
+
+@media only screen and ( min-width:760px){
+
+    #topback{
+        padding-top: 5px;
+        height: 102vh;
+    
+        
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    .icon{
+        display: none;
+    }
+
+   #welcome{
+        font-size: 20px;
+        
+    }
+
+    #kd{
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+}
+
+@media only screen and (max-width: 422px){
+
+    .brand{
+       
+        font-size: 20px;
+      
+        
+    }
+
+}
+
+@media only screen and (max-width: 341px){
+
+    .brand{
+     
+        font-size: 15px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 295px){
+
+    .brand{
+     
+        font-size: 12px;
+        
+    }
+
+}

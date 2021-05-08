@@ -1,0 +1,117 @@
+*{
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+    background: url('image/questionmark.jpg') no-repeat center fixed; 
+    background-size: cover;
+}
+
+ul.nav .dropdown:hover{
+    background-color: black;
+    border-radius: 30px;
+}
+
+
+.faq{
+    line-height: 30px;
+    text-align: center;
+    padding: 40px 45px 20px;
+ 
+}
+
+.faq h1{
+    background-color: orange;
+    border: solid;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+#footer{
+    padding-top: 50px;
+    width: 100%;
+    border-spacing: 10px;
+    height: -200vmax;
+    text-align: center;
+    margin-top: 150px;
+    background-color: black !important;
+
+}
+
+
+#footer ul{
+    list-style: none;
+}
+
+a{
+    color: orange;
+}
+
+#f, #fb, #fd{
+    color: white;
+}
+
+label.string{
+    color: black !important;
+}
+
+.navbar {
+    background-color: #ef9320;
+    
+  }
+  .navbar .navbar-brand {
+    color: #000000;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: rgb(255, 233, 194);
+  }
+  .navbar .navbar-text {
+    color: #000000;
+  }
+  .navbar .navbar-nav > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-nav > li > .dropdown-menu {
+    background-color: rgb(255, 178, 34);
+  }
+  .navbar .navbar-nav > li > .dropdown-menu > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-toggle {
+    border-color: black;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: black;
+  }
+  .navbar .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+
+  .input-group button{
+      background-color: black;
+  }
+
+  .dropdown-menu li a{
+      color: black !important;
+  }
+
+  .dropdown-menu li a:hover{
+    color: white;
+  }
+
+  nav{
+    color: orange !important;
+}
+
+a{
+    color: orange;
+}

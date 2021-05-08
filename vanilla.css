@@ -1,0 +1,156 @@
+*{
+    color: orange;
+    font-size: 16px;
+}
+body{
+    background-image: linear-gradient(to left, black 50%,orange);
+    font-size: 15px;
+    font-family:  sans-serif;
+    margin-top: 30px;
+
+}
+
+h2{
+    color: white !important;
+}
+
+#recipe{
+    text-align: center;
+    line-height: 20px;
+  
+}
+
+
+.btn-breadcrumb{
+    width: 100%;
+}
+
+.btn-success{
+    margin-top: 50px;
+  
+}
+
+#banana{
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 55px;
+    box-shadow: greenyellow;
+   
+  
+}
+
+#pc{
+    align-items: center;
+    padding: 0px 60px 15px;
+
+}
+
+#price{
+    margin-top: 20px;
+    text-align: center;
+    line-height: 15px;
+
+}
+
+td, th{
+    text-align: center;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    width: 100%;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+
+    display: inline-block;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+ 
+#headerh2{
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 5px;
+
+}
+
+nav,ol,li{
+   
+   padding: 5px;
+}
+
+#greenb{
+    text-decoration: none;
+  
+}
+
+#footer ul{
+    list-style: none;
+}
+
+#footer{
+    padding-top: 50px;
+    width: 100%;
+    border-spacing: 10px;
+    height: -200vmax;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black !important;
+
+}
+
+nav ul li a{
+    color: black !important;
+}
+
+nav ul li a:hover{
+    color: orange !important;
+}
+
+footer #end ul li a{
+    color: white !important;
+}
+
+#steps{
+text-align: center;
+
+}
+
+.input-box input{
+    display: inline;
+}
+
+.input-box{
+    display: inline-block;
+    line-height: 20px;
+}
+
+#quantity{
+    margin-left: auto;
+    margin-right: auto;
+    width: 13em;
+    padding: 0px 50px 0px;
+    margin-top: 20px;
+   
+}
+
+label{
+    display: inline-block;
+    align-items: center;
+}
+
+#cards{
+    font-size: 40px;
+}
+
+.icon2{
+    font-size: 20px;
+    
+}

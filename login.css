@@ -1,0 +1,116 @@
+body{
+    margin-top: 30px;
+    background: url('image/login.jpg') no-repeat center fixed; 
+    background-size: cover;
+    
+}
+
+.login-form {
+    max-width: 380px;
+  	font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 60px;
+}
+.login-form form {
+    margin-bottom: 15px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+.login-form h2 {
+    margin: 0 0 15px;
+}
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer{
+    list-style-type: none;
+}
+
+#f, #fb, #fd{
+    color: white;
+}
+
+#footer ul{
+    list-style: none;
+}
+
+#footer{
+    padding-top: 50px;
+    width: 100%;
+    border-spacing: 10px;
+    height: -200vmax;
+    text-align: center;
+    margin-top: 150px;
+    background-color: black !important;
+
+}
+
+
+#footer ul{
+    list-style: none;
+}
+
+.navbar {
+    background-color: #ef9320;
+    
+  }
+  .navbar .navbar-brand {
+    color: #000000;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: rgb(255, 233, 194);
+  }
+  .navbar .navbar-text {
+    color: #000000;
+  }
+  .navbar .navbar-nav > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-nav > li > .dropdown-menu {
+    background-color: rgb(255, 178, 34);
+  }
+  .navbar .navbar-nav > li > .dropdown-menu > li > a {
+    color: black;
+  }
+
+  .navbar .navbar-toggle {
+    border-color: black;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: black;
+  }
+  .navbar .navbar-toggle .icon-bar {
+    background-color: white;
+  }
+
+  .input-group button{
+      background-color: black;
+  }
+
+  .dropdown-menu li a{
+      color: black !important;
+  }
+
+  .dropdown-menu li a:hover{
+    color: white;
+  }
+
+  nav{
+    color: orange !important;
+}
+
+a{
+    color: orange;
+}
